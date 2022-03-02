@@ -1,3 +1,5 @@
+# code credit - https://github.com/amrrs/blr_osm_map
+
 library(tidyverse)
 library(osmdata)
 library(sf)
@@ -69,6 +71,6 @@ map = ggplot() +
            expand = FALSE) +
   
   labs(title = "Colombo, SRI LANKA", 
-       subtitle = '6.9271° N, 79.8612° E')
+       subtitle = '6.9271Â° N, 79.8612Â° E')
 
 map
